@@ -19,6 +19,7 @@
 
 # Time frame limitation notes:
 ==============================
+- 'FlaskDiarySvr.py' contains 3 methods with nearly identical code: searchCreated(), searchTitle(), searchContent(). They should be converged. I just didn't get to it in the time frame that was available to me, because they contain last minute editing for validation and error handling.
 - Given more time, I'd created a more formal unittest, with setUp and tearDown I'd find appropriate.
 - Didn't work #continuously# with git, because I used VS-2012 for debugging and faster code editing, and saw no point in synchronizing >50MB that .Net dumps intop the folder with GITHUB.
 - Could be more elegant to run client and server in different cmd windows. Worth exploring.
