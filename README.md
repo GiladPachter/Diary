@@ -19,7 +19,6 @@
 
 # Time frame limitation notes:
 ==============================
-- 'FlaskDiarySvr.py' contains 3 methods with nearly identical code. I am aware that using the python parallel to .Net delegates and c++ function pointers is a better code implementation.
 - Given more time, I'd created a more formal unittest, with setUp and tearDown I'd find appropriate.
 - Didn't work #continuously# with git, because I used VS-2012 for debugging and faster code editing, and saw no point in synchronizing >50MB that .Net dumps intop the folder with GITHUB.
 - Could be more elegant to run client and server in different cmd windows. Worth exploring.
